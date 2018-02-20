@@ -1,0 +1,9 @@
+provider:
+  name: faas
+  gateway: http://localhost:8080
+
+functions:
+  game:
+    lang: node
+    handler: ./game
+    image: game
