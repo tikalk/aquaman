@@ -1,5 +1,7 @@
 import { observable, action, computed, runInAction } from 'mobx';
 
+import user from './user';
+import logIn from './auth';
 import { get } from './game.resource';
 
 class Start {
@@ -13,18 +15,21 @@ class Start {
     e.preventDefault();
     this.disabled = true;
 
-    get(this.pin)
-      .then(({ data: { game } }) => {
-        runInAction(() => {
-          this.setState({ game });
-          this.disabled = false;
-        });
-      })
-      .catch(() => {
-        runInAction(() => {
-          this.disabled = false;
-        });
-      });
+    if (!user.loggedIn) {
+      return logIn().then(() => get(this.pin)
+        .then(({ data: { game } }) => {
+          runInAction(() => {
+            this.setState({ game });
+            this.disabled = false;
+          });
+        })
+        .catch(() => {
+          runInAction(() => {
+            this.disabled = false;
+          });
+        }),
+      );
+    }
   };
 }
 
