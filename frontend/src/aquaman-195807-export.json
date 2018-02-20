@@ -1,0 +1,60 @@
+{
+  "games" : {
+    "game-1" : {
+      "name" : "Marvel vs DC",
+      "questions" : [ {
+        "answers" : [ "Marvel", "DC" ],
+        "correctAnswerIdx" : 1,
+        "imageTitle" : "Hal Jordan",
+        "imageUrl" : "https://static.comicvine.com/uploads/scale_small/3/31666/3703047-secret_origins_3_531f5d9ec45806.60423727.jpg",
+        "question" : "Is he from Marvel or DC?"
+      }, {
+        "answers" : [ "Marvel", "DC" ],
+        "correctAnswerIdx" : 1,
+        "imageTitle" : "Batman",
+        "imageUrl" : "https://static.comicvine.com/uploads/scale_small/10/100647/6198653-batman+12.jpg",
+        "question" : "Is he from Marvel or DC?"
+      }, {
+        "answers" : [ "Marvel", "DC" ],
+        "correctAnswerIdx" : 0,
+        "imageTitle" : "Wolverine",
+        "imageUrl" : "https://static.comicvine.com/uploads/scale_small/3/31666/5723337-oml2016023-covcol.jpg",
+        "question" : "Is he from Marvel or DC?"
+      }, {
+        "answers" : [ "Marvel", "DC" ],
+        "correctAnswerIdx" : 0,
+        "imageTitle" : "Thing",
+        "imageUrl" : "https://static.comicvine.com/uploads/scale_small/14/149570/4171373-4171069-fanfour015_char_var.jpg",
+        "question" : "Is he from Marvel or DC?"
+      } ]
+    },
+    "game-2" : {
+      "name" : "Who is Marvel?",
+      "questions" : [ {
+        "answers" : [ "left", "right" ],
+        "correctAnswerIdx" : 0,
+        "imageTitle" : "Antman OR Atom",
+        "imageUrl" : "https://qph.ec.quoracdn.net/main-qimg-f9b1f0c08688822ecade21203fd4722d-c",
+        "question" : "Swipe to the side of the Marvel character?"
+      }, {
+        "answers" : [ "left", "right" ],
+        "correctAnswerIdx" : 1,
+        "imageTitle" : "Aquaman OR Namor",
+        "imageUrl" : "https://qph.ec.quoracdn.net/main-qimg-9e9e9206934c296985ce7a4268b671f1-c",
+        "question" : "Swipe to the side of the Marvel character?"
+      }, {
+        "answers" : [ "left", "right" ],
+        "correctAnswerIdx" : 1,
+        "imageTitle" : "Black Lightning OR Electro",
+        "imageUrl" : "https://qph.ec.quoracdn.net/main-qimg-3d4bc78eae204fa02069632008671095-c",
+        "question" : "Swipe to the side of the Marvel character?"
+      }, {
+        "answers" : [ "left", "right" ],
+        "correctAnswerIdx" : 0,
+        "imageTitle" : "Captain America OR Commander Steel",
+        "imageUrl" : "https://qph.ec.quoracdn.net/main-qimg-865f95f592feacf413d6cf79a2589360-c",
+        "question" : "Swipe to the side of the Marvel character?"
+      } ]
+    }
+  }
+}

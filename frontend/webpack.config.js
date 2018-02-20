@@ -16,16 +16,20 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.js$/,
+        test: /\.jsx?$/,
         include: resolve(__dirname, 'src'),
         loader: 'babel-loader',
       },
     ],
   },
 
+  resolve: {
+    extensions: ['.js', '.jsx', '.json', '.css', '.scss'],
+  },
+
   plugins: [
     new HtmlPlugin({
-      title: 'Aquaman',
+      title: 'Swipe It',
     }),
   ],
 };
